@@ -13,8 +13,8 @@ st.set_page_config(layout="wide")
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Exploratory Data Analysis", "Student List", "Engagement Predictor"])
 
 # Import Dataset
-df = pd.read_csv("https://drive.google.com/file/d/1yGMRwOEf1ZN1dtQg9manb5CalN9MspIX/view?usp=sharing")
-engagement_df = pd.read_csv("https://drive.google.com/file/d/1t9RaTi6hZINN_DD1pd2qjNwog07aboVz/view?usp=drive_link")
+df = pd.read_csv("https://www.dropbox.com/scl/fi/n95ckhf5jxrlytt18xeuf/cleanedData.csv")
+engagement_df = pd.read_csv("https://www.dropbox.com/preview/dataEngagement.csv")
 
 with tab1:
     st.title("WIH3001 DATA SCIENCE PROJECT")
